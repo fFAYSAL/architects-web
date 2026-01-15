@@ -118,6 +118,30 @@ main > section{
     color: #ff900e;
 }
 
+/* features section id releated styles */
+
+.features{
+    gap: 140px;
+}
+#features-section-itle-id{
+    border-left: 5px solid #ff900e;
+    padding-left: 20px;
+}
+.features-text-card {
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    
+}
+.features-text-card .features-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0-px;
+}
+
+
 /* card section  */
 .card-div{
     display: grid;
