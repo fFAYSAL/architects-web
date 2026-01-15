@@ -204,18 +204,35 @@ main > section{
     filter: grayscale(100%);
 }
 
+/* footer design style */
+.footer-head{
+    background-color: #FFF4E7;
+    width: 1440px;
+    height: 100px;
+    margin: 130px 240px 216px 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-content{
+    font-size: 20px
+    
+}
+    
+
 /* responsiv media query */
 @media screen and (max-width: 576px) {
     .navbar, 
     .nav-link, 
-    .features, .sponsors-companis
+    .features, .sponsors-companis, .footer-head
     {
         flex-direction: column;
     }
     .images, .card-div, .sponsors-companis{
         grid-template-columns: repeat(1, 1fr);
     }
-.card-div, .sponsors-companis{
+.card-div, .sponsors-companis, .footer-head{
     justify-items: center;
     gap: 24px;
 }
